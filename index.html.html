@@ -1,0 +1,32 @@
+
+          <html>
+            <body><html>
+    <label>Name:</label>
+    <input type="text" required placeholder="Enter your Name">
+    <br>
+    <label>Email:</label>
+    <input type="email" placeholder="Enter your Email">
+    <br>
+    <label>Number:</label>
+    <input id="n" type="number" placeholder="Enter your Number">
+    <br>
+    <input type="submit" onclick="check()">
+    <p id = "para">nothing</p>
+
+    <script>
+        function check(){
+            var x = document.getElementById("n").value;
+            if(x>0){
+                document.getElementById("para").innerHTML = "valid";
+            }
+            else{
+                document.getElementById("para").innerHTML = "invalid";
+            }
+
+        }
+    </script>
+</html></body>
+            <style></style>
+            <script></script>
+          </html>
+        
